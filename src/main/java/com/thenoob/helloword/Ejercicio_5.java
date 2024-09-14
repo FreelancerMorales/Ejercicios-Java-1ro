@@ -1,8 +1,15 @@
 package com.thenoob.helloword;
 
+import java.util.Scanner;
+
 public class Ejercicio_5 {
     public static void main(String[] args) {
-        double radio = 4;
+
+        System.out.print("Ingrese el radio de un circulo: ");
+        Scanner set_radio = new Scanner(System.in);
+        int radio = set_radio.nextInt();
+
+
         final double PI = 3.1416;
 
         double longitud = 2 * PI * radio;
