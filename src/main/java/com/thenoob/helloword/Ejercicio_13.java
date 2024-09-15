@@ -2,17 +2,28 @@ package com.thenoob.helloword;
 
 import java.util.Scanner;
 
-public class Ejercicio_1 {
+public class Ejercicio_13 {
     public static void main(String[] args) {
 
-        System.out.print("Ingrese dato 1: ");
-        Scanner set_1 = new Scanner(System.in);
-        int num_1 = set_1.nextInt();
+        int multi = 0;
 
-        System.out.print("Ingrese dato 2: ");
-        Scanner set_2 = new Scanner(System.in);
-        int num_2 = set_2.nextInt();
+        System.out.println("Tabla de Multiplicar");
+        System.out.print("Ingresa la tabla que deseas ver: ");
+        Scanner set_numb = new Scanner(System.in);
+        int numb = set_numb.nextInt();
 
-        System.out.println("Aquí vemos el primer Numero "+ num_1 +" Y aquí vemos el segundo "+ num_2);
+        System.out.println("");
+
+        System.out.print("Ahora ingresa el limite al cual quieres llegar: ");
+        Scanner set_lim = new Scanner(System.in);
+        int limit = set_lim.nextInt();
+
+        System.out.println("");
+
+        System.out.println("Tabla de "+numb);
+        for (int i = 1; i <= limit; i++) {
+            multi = numb * i;
+            System.out.println(numb +" * "+ i +" = " + multi);
+        }
     }
 }
