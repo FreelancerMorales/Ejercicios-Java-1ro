@@ -2,17 +2,20 @@ package com.thenoob.helloword;
 
 import java.util.Scanner;
 
-public class Ejercicio_1 {
+public class Ejercicio_7 {
     public static void main(String[] args) {
 
-        System.out.print("Ingrese dato 1: ");
+        System.out.println("Realizaremos una suma.");
+        System.out.print("Ingrese el primer Numero: ");
         Scanner set_1 = new Scanner(System.in);
         int num_1 = set_1.nextInt();
 
-        System.out.print("Ingrese dato 2: ");
+        System.out.print("Ahora ingrese el segundo numero: ");
         Scanner set_2 = new Scanner(System.in);
         int num_2 = set_2.nextInt();
 
-        System.out.println("Aquí vemos el primer Numero "+ num_1 +" Y aquí vemos el segundo "+ num_2);
+        int total = num_1 + num_2;
+
+        System.out.println("La suma del numero "+num_1+" y el numero "+num_2+" es igual a: "+total);
     }
 }
