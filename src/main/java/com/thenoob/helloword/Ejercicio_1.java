@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class Ejercicio_1 {
     public static void main(String[] args) {
+        Scanner set_num = new Scanner(System.in);
 
         System.out.print("Ingrese dato 1: ");
-        Scanner set_1 = new Scanner(System.in);
-        int num_1 = set_1.nextInt();
+        int num_1 = set_num.nextInt();
 
         System.out.print("Ingrese dato 2: ");
-        Scanner set_2 = new Scanner(System.in);
-        int num_2 = set_2.nextInt();
+        int num_2 = set_num.nextInt();
+
+        set_num.close();
 
         System.out.println("Aquí vemos el primer Numero "+ num_1 +" Y aquí vemos el segundo "+ num_2);
     }

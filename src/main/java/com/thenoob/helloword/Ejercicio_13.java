@@ -4,19 +4,19 @@ import java.util.Scanner;
 
 public class Ejercicio_13 {
     public static void main(String[] args) {
-
+        Scanner set_num = new Scanner(System.in);
         int multi = 0;
 
         System.out.println("Tabla de Multiplicar");
         System.out.print("Ingresa la tabla que deseas ver: ");
-        Scanner set_numb = new Scanner(System.in);
-        int numb = set_numb.nextInt();
+        int numb = set_num.nextInt();
 
         System.out.println("");
 
         System.out.print("Ahora ingresa el limite al cual quieres llegar: ");
-        Scanner set_lim = new Scanner(System.in);
-        int limit = set_lim.nextInt();
+        int limit = set_num.nextInt();
+
+        set_num.close();
 
         System.out.println("");
 

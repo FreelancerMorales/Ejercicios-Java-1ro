@@ -9,6 +9,7 @@ public class Ejercicio_5 {
         Scanner set_radio = new Scanner(System.in);
         int radio = set_radio.nextInt();
 
+        set_radio.close();
 
         final double PI = 3.1416;
 

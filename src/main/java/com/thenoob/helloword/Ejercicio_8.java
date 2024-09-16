@@ -9,6 +9,8 @@ public class Ejercicio_8 {
         Scanner set_Number = new Scanner(System.in);
         int Number = set_Number.nextInt();
 
+        set_Number.close();
+
         if(Number < 0){
             System.out.println("El numero "+Number+" es negativo");
         }else{

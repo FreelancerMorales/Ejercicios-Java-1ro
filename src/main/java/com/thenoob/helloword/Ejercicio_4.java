@@ -10,6 +10,8 @@ public class Ejercicio_4 {
         System.out.print("Ingrese un valor para grados centígrados: ");
         int c = set_c.nextInt();
 
+        set_c.close();
+
         int f = (32 + (9 * c/5));
         System.out.println("El numero " + c + "° en grados Fahrenheit es: "+ f + "°");
     }

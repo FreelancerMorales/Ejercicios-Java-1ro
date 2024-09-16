@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class Ejercicio_10 {
     public static void main(String[] args) {
+        Scanner set_num = new Scanner(System.in);
 
         System.out.print("Ingrese el numero 1: ");
-        Scanner set_1 = new Scanner(System.in);
-        int num_1 = set_1.nextInt();
+        int num_1 = set_num.nextInt();
 
         System.out.print("Ingrese el numero 2: ");
-        Scanner set_2 = new Scanner(System.in);
-        int num_2 = set_2.nextInt();
+        int num_2 = set_num.nextInt();
 
         System.out.print("Ingrese el numero 3: ");
-        Scanner set_3 = new Scanner(System.in);
-        int num_3 = set_3.nextInt();
+        int num_3 = set_num.nextInt();
+
+        set_num.close();
 
         int max = Math.max(Math.max(num_1, num_2), num_3);
         int min = Math.min(Math.min(num_1, num_2), num_3);
