@@ -7,7 +7,7 @@ public class Ejercicio_14 {
         boolean do_repeat = true;
         int i = 0, respuesta = 0;
         double promedio = 0, suma = 0;
-        int num[] = new int[4];
+        int num[] = new int[15];
 
         Scanner set_data = new Scanner(System.in);
 
