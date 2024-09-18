@@ -10,7 +10,19 @@ public class Ejercicio_1 {
         int num2;
 
         System.out.println("Comparación de Números");
-        
+        System.out.println("");
+        System.out.print("Ingrese el primer dato: ");
+        num1 = Num.nextInt();
+        System.out.print("Ingrese el segundo dato: ");
+        num2 = Num.nextInt();
+
+        System.out.println("");
+
+        if (num1 == num2) {
+            System.out.println("Ambos números son Iguales");
+        }else{
+            System.out.println("Los números Diferentes");
+        }
 
     }
 }
