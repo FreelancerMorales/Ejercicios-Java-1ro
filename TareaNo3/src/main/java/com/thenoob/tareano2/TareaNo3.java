@@ -2,7 +2,7 @@ package com.thenoob.tareano2;
 
 import java.util.Scanner;
 
-public class TareaNo2 {
+public class TareaNo3 {
     public static void main(String[] args) {
         double saldo_1 = 500;
         double saldo_2 = 300;
