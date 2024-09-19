@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class TareaNo2 {
     public static void main(String[] args) {
-        double saldo_1 = 1200;
-        double saldo_2 = 600;
+        double saldo_1 = 500;
+        double saldo_2 = 300;
         
         try (Scanner scanner = new Scanner(System.in)) {
             int opcion;
@@ -13,6 +13,7 @@ public class TareaNo2 {
             
             do {
                 System.out.println("");
+                System.out.println("-------------------------------------");
                 System.out.println("Saldos de Cuentas");
                 System.out.println("Saldo de la Cuenta No 1: " + saldo_1);
                 System.out.println("Saldo de la Cuenta No 2: " + saldo_2);
@@ -22,8 +23,9 @@ public class TareaNo2 {
                 System.out.println("2. Debitar");
                 System.out.println("3. Consultar saldos");
                 System.out.println("4. Salir");
-                opcion = scanner.nextInt();
+                System.out.println("-------------------------------------");
                 System.out.print("Respuesta: ");
+                opcion = scanner.nextInt();
                 
                 switch (opcion) {
                     case 1:
@@ -31,8 +33,9 @@ public class TareaNo2 {
                         System.out.println("¿A que cuenta desea abonar?");
                         System.out.println("1. Cuenta No 1");
                         System.out.println("2. Cuenta No 2");
-                        opcion = scanner.nextInt();
                         System.out.print("Respuesta: ");
+                        opcion = scanner.nextInt();
+                        System.out.println("");
 
                         switch (opcion) {
                             case 1:
@@ -58,8 +61,9 @@ public class TareaNo2 {
                         System.out.println("¿A que cuenta desea Debitar?");
                         System.out.println("1. Cuenta No 1");
                         System.out.println("2. Cuenta No 2");
-                        opcion = scanner.nextInt();
                         System.out.print("Respuesta: ");
+                        opcion = scanner.nextInt();
+                        System.out.println("");
 
                         switch (opcion) {
                             case 1:
@@ -93,8 +97,9 @@ public class TareaNo2 {
                         System.out.println("¿Que cuenta desea consultar?");
                         System.out.println("1. Cuenta No 1");
                         System.out.println("2. Cuenta No 2");
-                        opcion = scanner.nextInt();
                         System.out.print("Respuesta: ");
+                        opcion = scanner.nextInt();
+                        System.out.println("");
 
                         switch (opcion) {
                             case 1:
@@ -119,6 +124,7 @@ public class TareaNo2 {
                         System.out.println("Opción no válida. Intente de nuevo.");
                     break;
                 }
+                System.out.println("-------------------------------------");
             } while (opcion != 4);
         }
     }
