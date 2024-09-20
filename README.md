@@ -1,4 +1,4 @@
-# Recopilatorio de tareas, ejercicios y proyectos de INTECAP:
+# Recopilatorio de tareas, ejercicios y proyectos de INTECAP
 
 ## Hecho por:
 
