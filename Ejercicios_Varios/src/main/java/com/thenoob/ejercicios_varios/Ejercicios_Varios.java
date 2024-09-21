@@ -14,6 +14,7 @@ public class Ejercicios_Varios {
         System.out.println("3. (Números de 5 en 5)");
         System.out.println("4. (Tablas de Multiplicar)");
         System.out.println("5. (Pirámide Bonita)");
+        System.out.println("6. (Array)");
         System.out.println("");
         System.out.print("Ingrese el número del ejercicio que desea realizar: ");
         int option = scanner.nextInt();
@@ -34,6 +35,9 @@ public class Ejercicios_Varios {
             break;
             case 5:
                 No5();
+            break;
+            case 6:
+                No6();
             break;
             default:
                 System.out.println("Opción no válida");
@@ -100,6 +104,14 @@ public class Ejercicios_Varios {
                 System.out.print("* ");
             }
             System.out.println("");
+        }
+    }
+    public static void No6(){
+        // Un array de 10 posiciones con múltiplos de 5
+        int[] multiplos = new int[10];
+        for (int i = 0; i < multiplos.length; i++) {
+            multiplos[i] = (i+1)*5;
+            System.out.println((i+1) + ". " + multiplos[i]);
         }
     }
 }
