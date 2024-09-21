@@ -107,7 +107,6 @@ public class Ejercicios_Varios {
         }
     }
     public static void No6(){
-        // Un array de 10 posiciones con múltiplos de 5
         int[] multiplos = new int[10];
         for (int i = 0; i < multiplos.length; i++) {
             multiplos[i] = (i+1)*5;
