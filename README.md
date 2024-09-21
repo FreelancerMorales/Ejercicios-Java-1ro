@@ -1,4 +1,4 @@
-# Tarea No.1 de JAVA:
+# Recopilatorio de tareas, ejercicios y proyectos de INTECAP
 
 ## Hecho por:
 
